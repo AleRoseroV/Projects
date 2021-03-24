@@ -26,7 +26,7 @@ public class NewRegistryStepDefinitios {
         OnStage.theActorCalled("Alejandra").wasAbleTo(OpenUp.thePage());
     }
 
-    @When("^she registered his data in the form (.*) (.*) (.*) (.*) and (.*)$")
+    @When("^she registered his data in the four forms (.*), (.*), (.*), (.*) and finally (.*)$")
     public void sheRegisteredHisDataInTheFormNewRegistry( String registryNewUser, String registryPersonal, String registryAddress, String registryDevices, String completeRegistry)  {
         OnStage.theActorInTheSpotlight().attemptsTo(RegistryUser.the(registryNewUser));
         OnStage.theActorInTheSpotlight().attemptsTo(RegistryPersonal.the(registryPersonal));

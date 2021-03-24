@@ -7,6 +7,6 @@ Feature: NewRegistrer
   Scenario: new user registration
     Given than Alejandra wants register in the page automationpractice
 
-    When she registered his data in the form NewRegistryUser registryPersonal registryAddress RegistryDevices and CompleteRegistry
+    When she registered his data in the four forms Registry User, registry Personal, registry Address, Registry Devices and finally Complete Registry
 
     Then she end the Complete Setup in the page
